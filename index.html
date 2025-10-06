@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>TRABALHO DO SANDRO</title>
+ 
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <div id="map"></div>
+  <div class="info-box" id="info">
+  <h3>ESCOLHA SEU LOCAL DE PARTIDA E DE CHEGADA</h3>
+  <input type="text" id="origem" placeholder="Digite a origem">
+  <input type="text" id="destino" placeholder="Digite o destino">
+  <button id="btnRota">Calcular Rota</button>
+  <p id="resultado">MAPA OFICIAL DO LK.</p>
+
+  <p><b>Distância:</b> <span id="distancia">--</span> km</p>
+<p><b>Duração:</b> <span id="duracao">--</span> </p>
+<p><b>Velocidade média:</b> <span id="velocidade">--</span> km/h</p>
+<p><b>gastos com gasolina:</b> <span id="gasto_gsl">--</span> R$ </p>
+<p><b>gastos com etanol:</b> <span id="gasto_etnl">--</span> R$</p>
+<p><b>autonomia gasolina:</b> <span id="autonomia_gls">13</span> KM/L</p>
+<p><b>autonomia etanol:</b> <span id="autonomia_etnl">8</span> KM/L</p>
+<p><b>preço gasolina:</b> <span id="preco_gsl">6.38</span> R$</p>
+<p><b>preço etanol:</b> <span id="preco_etnl">4.17</span> R$</p>
+
+</div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+
+</body>
+
+</html>

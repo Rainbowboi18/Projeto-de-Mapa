@@ -1,0 +1,64 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+.info-box {
+  position: absolute;
+  top: 10px;    /* distância do topo da tela */
+  left: 10px;   /* distância da esquerda */
+  width: 300px; /* largura da caixa */
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.3);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  z-index: 10000;
+
+  display: flex;
+  flex-direction: column; /* organiza itens de cima pra baixo */
+}
+
+/* Container dos inputs lado a lado */
+.inputs-lado-a-lado {
+  display: flex;
+  gap: 8px;           /* espaço entre os inputs */
+  margin-bottom: 10px; /* espaço abaixo dos inputs */
+}
+
+ /* Inputs */
+.inputs-lado-a-lado input {
+  flex: 1;            
+  padding: 8px;
+  border: 10px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+ input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Botão */
+ button {
+  padding: 10px;
+  background-color: #15e42d;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+}

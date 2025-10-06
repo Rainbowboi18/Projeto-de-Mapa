@@ -1,0 +1,68 @@
+1. DADOS GERAIS DA VIAGEM
+ponto_partida---Local de início da viagem---KM
+destino      ---Local de destino final   ---KM
+paradas_planejadas---Locais de parada    ---lista
+nivel_alerta_combustivel---Nível mínimo para aviso de reabastecimento---L ou %
+
+
+
+ 2. DESLOCAMENTO E VELOCIDADE
+distancia_total    ---Distância total planejada---km
+distancia_percorrida---Distância já percorrida ---km
+distancia_restante---Distância até o destino   ---km
+velocidade_media---Velocidade média durante a viagem---km/h
+tempo_total_previsto---Tempo total estimado---h ou min
+tempo_gasto---Tempo já percorrido          ---h ou min
+tempo_restante---Tempo estimado até o destino---h ou min
+paradas_realizadas---Quantidade de paradas feitas---número
+
+
+
+3. COMBUSTÍVEL E CONSUMO
+autonomia---Distância percorrida por litro       ---km/L
+tanque_capacidade---Capacidade máxima do tanque     ---L
+combustivel_inicial---Combustível no início da viagem---L
+combustivel_abastecido---Quantidade abastecida em um posto---L
+consumo_total---Combustível gasto na viagem---L
+consumo_medio---Média de consumo (distância / combustível)---km/L
+preco_combustivel---Preço por litro---R$/L
+custo_abastecimento---Valor pago no abastecimento---R$
+custo_total_combustivel---Soma de todos os abastecimentos---R$
+nivel_combustivel_percentual---Percentual do tanque cheio---%
+
+
+
+4. CUSTOS E ORÇAMENTO
+orcamento_viagem---Dinheiro reservado para viagem---R$
+custo_total_viagem---Total gasto (combustível, pedágio, etc.)---R$
+custo_previsto_viagem---Valor estimado total---R$
+custo_combustivel---Custo apenas com combustível---R$
+custo_pedagio---Total pago em pedágios---R$
+custo_refeicao---Custos com alimentação---R$
+custo_hospedagem---Custos com estadia---R$
+saldo_restante_orcamento---Dinheiro restante do orçamento---R$
+economia_prevista---Diferença entre custo estimado e real---R$
+
+
+
+5. VARIÁVEIS TÉCNICAS DO VEÍCULO
+hodometro_inicial---Quilometragem no início da viagem---km
+hodometro_final---Quilometragem no final---km
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
