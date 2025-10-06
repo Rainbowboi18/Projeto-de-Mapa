@@ -142,17 +142,11 @@ function atualizarPainel() {
   document.getElementById("distancia").innerText = distanciaKm.toFixed(2);
 
 
-
-
-
-if (minutos < 10 && horas < 1) {
+if (minutos < 60 && horas < 1) {
  document.getElementById("duracao").innerText = horas + ':0' + calculos.minutos.toFixed(0) + " minutos";
-  } else {
+  } else { 
  document.getElementById("duracao").innerText = horas + `:` + calculos.minutos.toFixed(0) + " horas";
 }
-  
-
-
 
   document.getElementById("velocidade").innerText = calculos.vlc_media;
   document.getElementById("gasto_gsl").innerText = calculos.gasto_gsl;
@@ -164,9 +158,6 @@ if (minutos < 10 && horas < 1) {
 }
 
 
-
-
-
-
-
-
+//git add .
+//git commit -m "mensagem explicando o que mudou"
+//git push
