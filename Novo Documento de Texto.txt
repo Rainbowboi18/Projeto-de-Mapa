@@ -1,3 +1,8 @@
+POSSIVEIS VARIAVEIS QUE TEREI QUE TRABALHAR
+
+
+
+
 1. DADOS GERAIS DA VIAGEM
 ponto_partida---Local de início da viagem---KM
 destino      ---Local de destino final   ---KM
